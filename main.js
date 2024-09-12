@@ -8,19 +8,19 @@ let goLight = document.getElementById("goLight")
 
 stopButton.addEventListener("click",()=>{
     stopLight.style.backgroundColor="red"
-    slowLight.style.backgroundColor="black"
-    goLight.style.backgroundColor="black"
+    slowLight.style.backgroundColor=""
+    goLight.style.backgroundColor=""
 })
 
 slowButton.addEventListener("click",()=>{
-    stopLight.style.backgroundColor="black"
+    stopLight.style.backgroundColor=""
     slowLight.style.backgroundColor="yellow"
-    goLight.style.backgroundColor="black"
+    goLight.style.backgroundColor=""
 })
 
 
 goButton.addEventListener("click",()=>{
-    stopLight.style.backgroundColor="black"
-    slowLight.style.backgroundColor="black"
+    stopLight.style.backgroundColor=""
+    slowLight.style.backgroundColor=""
     goLight.style.backgroundColor="green"
 })
